@@ -1,5 +1,5 @@
 <?php
-class C_welcome.php extends CController
+class C_welcome extends CController
 {
 	function __construct()
 	{
@@ -8,10 +8,10 @@ class C_welcome.php extends CController
 	
 	public function index()
 	{
-		/*--
-		Load your lib or model to process reuqest
-		--*/
-		loadview('index.tpl.htm',$data);
+		/**
+		  * Code to load your models , libraries and helps 
+		**/
+		loadview('index',$data);
 	}
 }
 ?>
